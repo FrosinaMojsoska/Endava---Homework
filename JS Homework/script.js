@@ -34,6 +34,7 @@ function changePosition() {
   //let b = "translate(" + a + "%, " + x + "%)";
   let b=`translate(${x}%,${y}%)`
   document.getElementById("circle").style.transform = b;
+  document.getElementById("circle").style.transition = "2s";
 }
 
 setInterval(changePosition, 1500);
