@@ -1,0 +1,53 @@
+
+body
+{
+    background-color: #c6ccd8;
+
+}
+
+#container{
+    background-color: #3f4d63ab;
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    margin:  auto;
+    border: 3px solid #85a1c1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   
+}
+  
+#circle
+{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: inline-block;
+     
+}
+.yellow
+{
+    background-color: #fff397 !important;
+    
+}
+.blue
+{
+    background-color: hsl(212, 100%, 82%) !important;
+    
+}
+ 
+.green
+{
+    background-color: #47cea5 !important;
+    
+}
+ 
+.visible
+{
+display: none;
+
+   
+}
+
