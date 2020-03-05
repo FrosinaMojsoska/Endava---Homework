@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UniversityApp/1.0.0": {
+        "dependencies": {
+          "UniversityLibrary": "1.0.0"
+        },
+        "runtime": {
+          "UniversityApp.dll": {}
+        }
+      },
+      "UniversityLibrary/1.0.0": {
+        "runtime": {
+          "UniversityLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UniversityApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UniversityLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
